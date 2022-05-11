@@ -14,4 +14,10 @@ public class TestController {
     public String test() {
         return "App working";
     }
+
+    @GetMapping("/initadmin")
+    public String initAdmin() {
+        return "App working";
+    }
+
 }
