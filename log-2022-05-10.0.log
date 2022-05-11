@@ -1,0 +1,95 @@
+10 Ð¼Ð°Ñ 2022 - 13:05:15.740 - com.company.Lesson88KunUzApplication -  INFO  - Starting Lesson88KunUzApplication using Java 17.0.2 on DESKTOP-9MOO2TH with PID 12524 (C:\Users\BigMan\Desktop\lesson_99_kun_uz\target\classes started by BigMan in C:\Users\BigMan\Desktop\lesson_99_kun_uz)
+10 Ð¼Ð°Ñ 2022 - 13:05:15.764 - com.company.Lesson88KunUzApplication -  DEBUG - Running with Spring Boot v2.6.6, Spring v5.3.18
+10 Ð¼Ð°Ñ 2022 - 13:05:15.767 - com.company.Lesson88KunUzApplication -  INFO  - The following 1 profile is active: "dev"
+10 Ð¼Ð°Ñ 2022 - 13:05:18.905 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+10 Ð¼Ð°Ñ 2022 - 13:05:19.180 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Finished Spring Data repository scanning in 252 ms. Found 10 JPA repository interfaces.
+10 Ð¼Ð°Ñ 2022 - 13:05:21.033 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat initialized with port(s): 8080 (http)
+10 Ð¼Ð°Ñ 2022 - 13:05:21.063 - o.a.catalina.core.StandardService -  INFO  - Starting service [Tomcat]
+10 Ð¼Ð°Ñ 2022 - 13:05:21.064 - o.a.catalina.core.StandardEngine -  INFO  - Starting Servlet engine: [Apache Tomcat/9.0.60]
+10 Ð¼Ð°Ñ 2022 - 13:05:21.330 - o.a.c.c.C.[Tomcat].[localhost].[/] -  INFO  - Initializing Spring embedded WebApplicationContext
+10 Ð¼Ð°Ñ 2022 - 13:05:21.332 - o.s.b.w.s.c.ServletWebServerApplicationContext -  INFO  - Root WebApplicationContext: initialization completed in 5405 ms
+10 Ð¼Ð°Ñ 2022 - 13:05:21.490 - com.company.config.JwtFilter -  DEBUG - Filter 'jwtFilter' configured for use
+10 Ð¼Ð°Ñ 2022 - 13:05:21.779 - o.h.jpa.internal.util.LogHelper -  INFO  - HHH000204: Processing PersistenceUnitInfo [name: default]
+10 Ð¼Ð°Ñ 2022 - 13:05:21.897 - org.hibernate.Version -  INFO  - HHH000412: Hibernate ORM core version 5.6.7.Final
+10 Ð¼Ð°Ñ 2022 - 13:05:22.334 - o.h.annotations.common.Version -  INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+10 Ð¼Ð°Ñ 2022 - 13:05:22.592 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Starting...
+10 Ð¼Ð°Ñ 2022 - 13:05:22.833 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Start completed.
+10 Ð¼Ð°Ñ 2022 - 13:05:22.909 - org.hibernate.dialect.Dialect -  INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+10 Ð¼Ð°Ñ 2022 - 13:05:23.012 - Hibernate Types -  INFO  - This framework is proudly powered by:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+At Hypersistence, we only build amazing tools, like Hibernate Types, Flexy Pool, or Hypersistence Optimizer.
+
+What if there were a tool that could automatically detect JPA and Hibernate performance issues?
+
+Hypersistence Optimizer is that tool! For more details, go to: 
+
+https://vladmihalcea.com/hypersistence-optimizer/
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+10 Ð¼Ð°Ñ 2022 - 13:05:25.318 - o.h.e.t.j.p.i.JtaPlatformInitiator -  INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10 Ð¼Ð°Ñ 2022 - 13:05:25.330 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+10 Ð¼Ð°Ñ 2022 - 13:05:27.673 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -  WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10 Ð¼Ð°Ñ 2022 - 13:05:28.511 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat started on port(s): 8080 (http) with context path ''
+10 Ð¼Ð°Ñ 2022 - 13:05:28.528 - com.company.Lesson88KunUzApplication -  INFO  - Started Lesson88KunUzApplication in 14.352 seconds (JVM running for 16.466)
+10 Ð¼Ð°Ñ 2022 - 13:06:01.544 - o.a.c.c.C.[Tomcat].[localhost].[/] -  INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10 Ð¼Ð°Ñ 2022 - 13:06:01.545 - o.s.web.servlet.DispatcherServlet -  INFO  - Initializing Servlet 'dispatcherServlet'
+10 Ð¼Ð°Ñ 2022 - 13:06:01.560 - o.s.web.servlet.DispatcherServlet -  INFO  - Completed initialization in 15 ms
+10 Ð¼Ð°Ñ 2022 - 13:06:01.897 - c.company.controller.AuthController -  DEBUG - Authorization:  AuthDTO(email=1231adssd@gmail.com, password=valsdish7)
+10 Ð¼Ð°Ñ 2022 - 13:06:01.902 - c.company.controller.AuthController -  INFO  - Authorization:  AuthDTO(email=1231adssd@gmail.com, password=valsdish7)
+10 Ð¼Ð°Ñ 2022 - 13:06:01.903 - c.company.controller.AuthController -  WARN  - Authorization:  AuthDTO(email=1231adssd@gmail.com, password=valsdish7)
+10 Ð¼Ð°Ñ 2022 - 13:06:01.904 - c.company.controller.AuthController -  ERROR - Authorization:  AuthDTO(email=1231adssd@gmail.com, password=valsdish7)
+10 ìàÿ 2022 - 13:08:00.435 - com.company.AuthControllerTest -  INFO  - Starting AuthControllerTest using Java 17.0.2 on DESKTOP-9MOO2TH with PID 14656 (started by BigMan in C:\Users\BigMan\Desktop\lesson_99_kun_uz)
+10 ìàÿ 2022 - 13:08:00.441 - com.company.AuthControllerTest -  DEBUG - Running with Spring Boot v2.6.6, Spring v5.3.18
+10 ìàÿ 2022 - 13:08:00.484 - com.company.AuthControllerTest -  INFO  - The following 1 profile is active: "dev"
+10 ìàÿ 2022 - 13:08:03.087 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+10 ìàÿ 2022 - 13:08:03.420 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Finished Spring Data repository scanning in 310 ms. Found 10 JPA repository interfaces.
+10 ìàÿ 2022 - 13:08:06.223 - o.h.jpa.internal.util.LogHelper -  INFO  - HHH000204: Processing PersistenceUnitInfo [name: default]
+10 ìàÿ 2022 - 13:08:06.549 - org.hibernate.Version -  INFO  - HHH000412: Hibernate ORM core version 5.6.7.Final
+10 ìàÿ 2022 - 13:08:07.182 - o.h.annotations.common.Version -  INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+10 ìàÿ 2022 - 13:08:07.782 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Starting...
+10 ìàÿ 2022 - 13:08:08.187 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Start completed.
+10 ìàÿ 2022 - 13:08:08.287 - org.hibernate.dialect.Dialect -  INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+10 ìàÿ 2022 - 13:08:08.422 - Hibernate Types -  INFO  - This framework is proudly powered by:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+At Hypersistence, we only build amazing tools, like Hibernate Types, Flexy Pool, or Hypersistence Optimizer.
+
+What if there were a tool that could automatically detect JPA and Hibernate performance issues?
+
+Hypersistence Optimizer is that tool! For more details, go to: 
+
+https://vladmihalcea.com/hypersistence-optimizer/
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+10 ìàÿ 2022 - 13:08:11.261 - o.h.e.t.j.p.i.JtaPlatformInitiator -  INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10 ìàÿ 2022 - 13:08:11.286 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+10 ìàÿ 2022 - 13:08:15.984 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -  WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10 ìàÿ 2022 - 13:08:18.212 - com.company.AuthControllerTest -  INFO  - Started AuthControllerTest in 18.866 seconds (JVM running for 21.631)
+10 ìàÿ 2022 - 13:08:18.975 - o.s.b.t.c.SpringBootTestContextBootstrapper -  INFO  - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.company.Lesson88KunUzApplicationTests], using SpringBootContextLoader
+10 ìàÿ 2022 - 13:08:18.977 - o.s.t.c.s.AbstractContextLoader -  INFO  - Could not detect default resource locations for test class [com.company.Lesson88KunUzApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+10 ìàÿ 2022 - 13:08:18.978 - o.s.t.c.s.AnnotationConfigContextLoaderUtils -  INFO  - Could not detect default configuration classes for test class [com.company.Lesson88KunUzApplicationTests]: Lesson88KunUzApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10 ìàÿ 2022 - 13:08:18.980 - o.s.b.t.c.SpringBootTestContextBootstrapper -  INFO  - Found @SpringBootConfiguration com.company.Lesson88KunUzApplication for test class com.company.Lesson88KunUzApplicationTests
+10 ìàÿ 2022 - 13:08:18.985 - o.s.b.t.c.SpringBootTestContextBootstrapper -  INFO  - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+10 ìàÿ 2022 - 13:08:18.986 - o.s.b.t.c.SpringBootTestContextBootstrapper -  INFO  - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@36570936, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@775fec4, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@c7d173f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@12f12744, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1c618295, org.springframework.test.context.support.DirtiesContextTestExecutionListener@344acc03, org.springframework.test.context.transaction.TransactionalTestExecutionListener@50eae15a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4bba2704, org.springframework.test.context.event.EventPublishingTestExecutionListener@5b5f61cc, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@39179470, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3ef04239, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2468c0e4, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@49994a4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1a82453, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3df54fd5]
+10 ìàÿ 2022 - 13:08:19.101 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+10 ìàÿ 2022 - 13:08:19.106 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown initiated...
+10 ìàÿ 2022 - 13:08:19.120 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown completed.
