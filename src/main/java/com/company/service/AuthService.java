@@ -18,6 +18,7 @@ import io.jsonwebtoken.JwtException;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
@@ -33,6 +34,8 @@ public class AuthService {
     private EmailService emailService;
     @Autowired
     private AttachService attachService;
+    @Value("${server.domain.name}")
+    private String domainName;
 
     public ProfileDTO login(AuthDTO dto) {
         String pswd = DigestUtils.md5Hex(dto.getPassword());
@@ -128,7 +131,7 @@ public class AuthService {
         String jwt = JwtUtil.encode(entity.getId());
         builder.append("Salom bormsin \n");
         builder.append("To verify your registration click to next link.");
-        builder.append("http://localhost:8080/auth/verification/").append(jwt);
+        builder.append(domainName + "auth/verification/").append(jwt);
         builder.append("\nMazgi!");
         emailService.send(entity.getEmail(), "Activate Your Registration", builder.toString());
 
